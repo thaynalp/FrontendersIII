@@ -1,3 +1,6 @@
+html, body {
+    margin: 0px;
+}
 
 .footer-container {
     display: flex;
@@ -19,7 +22,7 @@
 }
 
 .footer-flex {
-    display: inline-flex;
+    
     max-width: 100vw;
 }
 
@@ -40,8 +43,8 @@ footer a {
     width: 25px;
     height: 25px;
     margin-top: -6px;
-    margin-left: 79px;
-    position: absolute;
+    margin-left: 20px;
+    display: inline;
 }
 
 footer img:hover {
@@ -51,4 +54,4 @@ footer img:hover {
     text-decoration: none;
 }
 
-
+ /*---------------- fim footer--------------------------------*/
