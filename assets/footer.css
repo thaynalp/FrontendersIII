@@ -5,7 +5,7 @@ html, body {
 .footer-container {
     display: flex;
     width: 100vw;
-    
+    bottom: 0px;
     position: static;
     flex-shrink: 0px;
     display: inline;
@@ -13,6 +13,7 @@ html, body {
 }
 
 .paragrafo-footer {
+    
     max-width: 100vw;
     font-size: 18px;
     background-color: rgb(1, 1, 32);
