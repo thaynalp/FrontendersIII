@@ -1,51 +1,19 @@
-/*---------------- pág login------------------*/
 .form-login {
     width: 30%;
     margin: auto auto;
 }
-/*---------------- fim pág login------------------*/
 
 body {
     background-color:rgb(3, 8, 83);
     font-family: Arial, Helvetica, sans-serif;
     width: 100vw;
     height: 100vh;
-    
 }
 
 header {
    min-height: 150px;  /*por que min de altura?*/
 }
 
-#nav {
-    display: flex;  /*ou inline-flex*/
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;  /*da esquerda p direita*/
-    background-color: rgb(3, 8, 83);
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.349);
-    width: 100%;
-    position: fixed;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    padding: 12px;
-    background-color: rgb(3, 8, 83);
-    font-size: 16px;
-    border-radius: 2px 2px;
-    font-weight: bold;
-    transition-duration: 0.3s;
-    cursor: pointer;
-}
-
-nav a:hover {
-    background-color: rgb(6, 247, 247);
-    color: rgb(3, 8, 83);
-    text-decoration: none;
-}
 
 main {
     min-width: 300px;
