@@ -76,3 +76,14 @@ p {
     cursor: pointer;
   }
 /*---------------- fim barra de pesquisa------------------*/
+
+#logo-index{
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+nav a.logo-index:hover {
+    background-color: transparent;
+    text-decoration: none;
+}

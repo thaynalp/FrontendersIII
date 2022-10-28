@@ -6,6 +6,10 @@ body {
     
 }
 
+header {
+    min-height: 150px;  /*por que min de altura?*/
+ }
+
 
 main {
     min-width: 300px;
