@@ -18,20 +18,26 @@
 </head>
 <body>
     <header>
-        <nav id="nav">
-            <div>
-                <a href="index.html"><img src="" alt="Logo"></a>
-                <button id="menuburguer"></button>
+        <div class="container">
+
+                <div class="menu-section on">
+                    <div class="menu-toggle">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                    </div>
+                    <nav id="nav" class="navbar fixed-top navbar-blue bg-blue">
+                        <a class="logo-index" href="index.html"><img src="assets/imagens/logo-dev2.png" alt="Logo" id="logo-index"></a>
+
+                        <a href="index.html" class="index-a-margin">Home</a>
+                        <a href="servico.html">Serviço</a>
+                        <a href="cadastro.html">Cadastro</a>
+                        <a href="contato.html">Contato</a>
+                        <a href="login.html">Login</a>
+                        <a href="recuperacao-senha.html">Recuperar Senha</a>
+                    </nav>
+                </div>
             </div>
-            <div >
-                <a href="index.html">Home</a>
-                <a href="servico.html">Serviço</a>
-                <a href="cadastro.html">Cadastro</a>
-                <a href="contato.html">Contato</a>
-                <a href="login.html">Login</a>
-                <a href="recuperacao-senha.html">Recuperação de Senha</a>
-            </div>
-        </nav>
     </header>
     <main>
         <h1 class="h1-login">Login</h1>
@@ -69,6 +75,7 @@
             </a>
         </p>
     </footer>
+    <script src="scripts/menu.js"></script>
     <script src="../JS/script.js">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
