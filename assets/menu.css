@@ -24,7 +24,7 @@ nav a {
 }
 
 nav a:hover {
-    background-image: linear-gradient(to bottom right, rgb(228, 236, 228), rgb(6, 247, 247)); /*rgb(6, 247, 247);*/
+    background-image: linear-gradient(to bottom right, rgb(228, 236, 228), rgb(6, 247, 247));
     color: rgb(3, 8, 83);
     text-decoration: none;
 }
