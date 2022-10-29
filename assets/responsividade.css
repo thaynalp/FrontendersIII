@@ -1,0 +1,99 @@
+/*-----resposividade-----*/
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 630px) {
+
+}
+
+@media (max-width: 768px) {
+    header #nav a {
+        font-size: 15px;
+        background-color: transparent;
+
+    }
+    header #nav{
+        padding-top: 151px;
+        display: none;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+.one,
+.two,
+.three {
+    background-color: #fff;
+    height: 7px;
+    width: 13%;
+    margin-left: 535px;
+    margin-top: 10px;
+    transition-duration: 0.3s;
+}
+
+header .container .menu-section.on .menu-toggle {
+    padding-top: 5px;
+    padding-right: 5px;
+    height: 40px;
+    margin-right: 60px;
+ }
+
+
+/*fullscreen*/
+header .container .menu-section.on {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #151025;
+    z-index: 10;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ header .container .menu-section.on #nav{
+    display:block;
+}
+
+header .container .menu-section.on .menu-toggle {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+} 
+
+header .container .menu-section.on .menu-toggle .one {
+    transform: rotate(45deg) translate(9px, 7px);
+}
+header .container .menu-section.on .menu-toggle .two {
+    opacity: 0;
+}
+
+header .container .menu-section.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(17px, -14px);
+
+}
+header .container .menu-section.on #nav a {
+    display: block;
+    text-align: center;
+    transition-duration: 0.5s;
+    font-size: 2rem;
+    line-height: 4rem;
+    display: block;
+}
+
+}
+
+#logo-index{
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+nav a.logo-index:hover {
+    background-color: transparent;
+    text-decoration: none;
+}
