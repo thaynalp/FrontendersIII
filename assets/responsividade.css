@@ -8,7 +8,7 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 605px) {
     header #nav a {
         font-size: 15px;
         background-color: transparent;
