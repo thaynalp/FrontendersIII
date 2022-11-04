@@ -22,3 +22,80 @@ main {
 }
 /*--- fim layout da pág---*/
 
+body {
+    background-image: url(imagens/fundo5.jpeg);
+    font-family: 'Times New Roman', Times, serif;
+    width: 100vw;
+    height: 100vh;
+ }
+  
+  header {
+   min-height: 100px;
+}
+main {
+    min-width: 300px;
+    width: 60vw;
+    min-height: 100%;
+    margin: auto;
+    margin-top: 39px;
+    margin-bottom: 39px;
+    background-color:rgb(250, 250, 245);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699) ;
+    border-radius: 50px 50px 50px 50px;
+    overflow: hidden;
+    scroll-behavior: smooth ;
+  }
+ .social a{
+    text-decoration: none;
+    color: black;
+}
+.social a:hover{
+    color: blue;
+}
+.tamanho-fonte{
+    font-size: 24px;
+}
+.row {
+    margin-left: 85px;
+}
+.tamanho-titulo {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+  
+  h1 {
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: auto;
+    margin: auto;
+    width: max-content;     
+  }
+
+  p {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+ 
+  .icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color:#130f0f 
+  }
+  
+  .icons .ion-icon{
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50px; 
+    height: 50px;
+   }
+
+.span-footer{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.nome-footer{
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
