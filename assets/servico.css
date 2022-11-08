@@ -24,3 +24,264 @@ main {
     
 }
 /*--- fim layout da pág---*/
+
+body {
+    background-color:rgb(60, 88, 246);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*--- fim layout da pág---*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style:none;
+  }
+  
+  main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(/assets/imagens/fundo.jpg) no-repeat center;
+    background-size: cover;
+  }
+  
+  .textos-curso{
+    margin-top: 18vh;
+    width: 60vw;
+    height: 36vh;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-size: 100%; 
+    font-size: 1px;
+   
+  }
+
+  .textos-curso .imagem-curso {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textos {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .preco h5 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .textos-curso h4 {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .textos-curso h1 {
+    font-family: arial;
+    font-weight: 600;
+    font-size: 3rem;
+    width: 100%;
+    background-color: #084298c4;
+    text-align: center;
+    color: yellow;
+  }
+
+  .textos-curso div .img-js {
+      width: 80%;
+      height: 80%;
+  }
+
+  .cards-container {
+    display: flex;
+   
+  }
+  
+ .tabela-preco{
+  justify-content: space-around;
+  display: flex;
+  
+ }
+
+
+  .card-preco{
+      
+      flex: 1;
+      max-width: 360px;
+      background-color: rgb(244, 247, 242);
+      margin: 20px 10px;
+      text-align: center;
+      cursor: pointer;
+      overflow: hidden;
+      color: rgb(6, 6, 6);
+      transition: 3s linear;
+      border: 2px solid yellow;
+      border-radius: 2px;
+  }
+  
+  .card-preco:hover .card-preco-header{
+    box-shadow: 0 0 0 50em rgba(255, 255, 0, 0.565);
+    border-radius: 10px;
+    border: 3px solid rgb(1, 1, 0);
+  }
+  .card-preco-header{
+    background: #084298;
+    display: inline-block;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transform: 4s line;
+    
+  }
+  
+  .preco{
+      font-size: 70px;
+      color: rgb(18, 231, 64);
+      margin: 40px 0;
+      transition: .2s linear;
+      
+      
+  }
+  
+  .preco sup, .preco span {
+      font-size: 22px;
+      font-weight: 700;
+  }
+  
+  .card-preco:hover, .card-preco:hover, .preco {
+    color: #084298;
+   
+  }
+  
+  .card-preco li {
+      font-size: 13px;
+      padding: 10px 0;
+      text-transform: uppercase;
+      font-family: Arial;
+      text-align: initial;
+      
+      
+      
+  }
+  
+  .botao-assinar{
+      display: inline-block;
+      margin-bottom: 40px;
+      margin-top: 80px;
+      border:2px solid black;
+      color: #f7fafd;
+      padding: 18px 40px;
+      border-radius: 8px;
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: .3s linear;
+      background-color: #084298c7;
+     
+  }
+  
+  .botao-assinar:hover {
+      background-color: rgb(109, 145, 245);
+      color: rgb(238, 18, 55);
+      border: 2px solid #084298;
+  }
+  #emoji::before {
+    content: '\01F5F8';
+    font-size: 25px;
+    color: #084298;
+   }
+   
+   /*------------ Modal inicio ----------------------/*/
+    .form-pagamento {
+     
+      
+      width: 100%;
+      padding: 10px 30px;
+      border: 1px solid rgb(121, 120, 120);
+      padding-left: 20px;
+      padding: 30px 30px 30px;
+      
+      background-color: rgb(228, 232, 240);
+      
+      
+      
+    }
+  
+    .form-pagamento form {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .form-100{
+      border-radius: 10px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+      
+    .form-50{
+      border-radius: 10px;
+      width: 100%;
+      display: flex;
+      margin-bottom: 10px;
+    }
+  
+    .form-150{
+      border-radius: 10px;
+      width: 100%;
+      margin-bottom: 10px;
+      background-color: rgba(128, 128, 128, 0.11);
+      color: white;
+    }
+    
+    .form-pagamento label {
+      display:block ;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: rgb(92, 91, 94);
+    }
+  
+    .form-pagamento input[type=text] {
+      border-radius: 10px;
+      width: 100%;
+      height: 40px;
+      border: 1px solid rgb(6, 6, 6);
+      padding-left: 10px;
+    }
+  
+    .form-pagamento input[type=submit] {
+      border-radius: 10px;
+      width: 100px;
+      height: 40px;
+      border: 0;
+      cursor: pointer;
+      background-color: #084298;
+      color: rgb(255, 254, 253);
+    }
+  
+    .form-150 input[type=checkbox] {
+      color: white;
+      width: 20px;
+      height: 15px;
+  
+    }
+  
+   .form-pagamento label[class=cor]{
+    color: rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   

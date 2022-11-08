@@ -41,30 +41,66 @@
             </div>
     </header>
     <main>
-        <h1>
-            Página de cadastro na lista de espera:            
-        </h1>
+        <div class="container">
+            <div class="form-image">
+                <img src="imagens/javascript-img.webp" alt="foto#2.formulario">
+            </div>
+            <div class="form">
+               <form action="#">
+                   <div class="form-header">
+                       <div calss="title">
+                           <h1>Cadastre-se</h1>
+                       </div>
+                       <div class="login-button">
+                           <button><a href="#">Entrar</a></button>
+                       </div>
+                   </div>
+                   
+                   <div class="input-group">
+                       <div class="input-box">
+                           <lable for="firstname">Primeiro nome</lable>
+                           <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                       </div>
 
-        <p> A API ViaCEP deve ser utilizada para obter dados referentes aos CEPs
-            utilizados no cadastro;  https://viacep.com.br/</p>
+                       <div class="input-box">
+                            <lable for="lastname">Sobrenome</lable>
+                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                        </div>
 
-         Utilização de classes e POO na construção do projeto
-        ⇨ Utilização de jQuery para manipulações de DOM e requisições HTTP
-        <p>
-           
-                ◼ Deve conter formulário com:
-                □ Nome;
-                □ E-mail;
-                □ Senha;
-                □ Confirmação de senha;
-                □ RG;
-                
-                □ CEP (que completa os demais campos do
-                endereço com consulta à API e trata erros);
-            
-                □ Campos de endereço (estado, cidade, bairro,
-                rua, número, complemento).
-        </p>
+                        <div class="input-box">
+                            <lable for="email">Email</lable>
+                            <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                        </div>
+
+                        <div class="input-box">
+                            <lable for="password">Senha</lable>
+                            <input id="password" type="text" name="password" placeholder="Digite sua senha" required>
+                        </div>
+                        
+                        <div class="input-box">
+                            <lable for="Confirmpassword">Confirmar senha</lable>
+                            <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="Confirme sua senha" required>
+                        </div>
+
+                        <div class="input-box">
+                            <lable for= "Confirmpassword">Digite seu CEP</lable>
+                            <input type="text" id="cep" name="cep" size="15" maxlength="8" autocomplete="off" required>
+                            <button type="button" onclick="consultaCep( )">Consultar</button>
+
+                            
+
+                        </div>
+
+
+                        <div class="continue-button">
+                            <button><a href="#">Continuar</a></button>
+                        </div>
+                   </div>
+               </form>    
+               </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="cep.js"></script>
     </main>
     <footer>
         <p class="paragrafo-footer">

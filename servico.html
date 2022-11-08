@@ -8,13 +8,14 @@
     <!-- Favicon: -->
     <link rel="shortcut icon" href="assets/imagens/favicon.ico.png" type="image/x-icon">  <!--https://www.flaticon.com/br/buscar?word=dev&order_by=4-->
     <!--Bootstrap CSS-->
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/responsividade.css">
     <link rel="stylesheet" href="assets/menu.css">
     <link rel="stylesheet" href="assets/servico.css"> 
     <link rel="stylesheet" href="assets/footer.css">
-    <title>Login</title>
+    <title>Serviço</title>
 </head>
 <body>
     <header>
@@ -39,22 +40,170 @@
             </div>
     </header>
     <main>
-        <section>
-        <h1>pág de Serviços - Descrição do Serviço</h1>
-            <p>
-                Deve detalhar o funcionamento do
-                serviço;
-            </p>
-
-            <p>
-                Apresentar os planos de assinatura e
-                quais benefícios tem em cada plano.
-
-
-                Utilização de classes e POO na construção do projeto
-                ⇨ Utilização de jQuery para manipulações de DOM e requisições HTTP
-            </p>
-        </section>  
+        <div class="textos-curso">
+            <div class="imagem-curso">
+              <img class="img-js" src="assets/imagens/script-java.png" alt="">
+            </div>
+            <div class="textos">
+              <h1> JavaScript - Programação </h1>
+              <h4>
+                JavaScript é uma linguagem de programação interpretada estruturada, 
+                de script em alto nível com tipagem dinâmica fraca e multiparadigma.
+                Juntamente com HTML e CSS, o JavaScript é uma das três principais
+                tecnologias da World Wide Web. O Javascript pode ser usado no
+                Frontend, Backend e até mesmo na comunicação com banco de dados
+                No frontend é possível manipular os elementos da página.
+                No backend é possível tratar requisições e executar diversas tarefas
+                através do framework mais popular Node.js.
+              </h4>
+            </div>
+          </div>
+    
+            <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Formas de pagamento.</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            
+            <section class="pagamento"> 
+              <div class="form-pagamento"> 
+                  <form method="post">
+                    <div class="form-100">
+                      <label>Nome</label>
+                      <input type="text"/>
+                    </div>
+    
+                    <form method="post">
+                      <div class="form-100">
+                        <label>Email</label>
+                        <input type="text"/>
+                      </div>
+    
+                      <form method="post">
+                        <div class="form-100">
+                          <label>Cpf:</label>
+                          <input type="text" placeholder="000.000.000-00" />
+                        </div>
+    
+                    <div class="form-100"> 
+                        <label>Dados do cartão</label>
+                        <input type="text" placeholder="0000 0000 0000 0000"/>
+                          <div class="form-50"> 
+                            <input style="margin-top:-1px" type="text" placeholder="12/23"/>
+                            <input style="margin: left -1px; margin: top -1px;" type="text" placeholder=" CVC"/>
+                          </div> 
+                    </div>  
+    
+                    <div class="form-100">
+                      <input type="text" placeholder="Nome do cartão"/>
+                    </div>
+    
+                    <div class=" form-150">
+                      <input type="checkbox" name="tPed" id="cPed" checked/>
+                      <label class="cor"> Salvar dados do cartão para compras futuras</label>
+    
+    
+                    </div>
+    
+                    <div class="form-100">
+                        <input type="submit" name="acao" value="Pagar">
+                    </div>
+                    
+                    
+                
+                  </form>
+              </div>
+            </section>
+    
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    <div class="cards-container">
+       <div class="tabela-preco">
+         <div class="card-preco">
+            <h3 class="card-preco-header"> BÁSICO </h3>
+            <div class="preco"><sup>R$</sup>299<span> <h5>Ou 10x 29,90</h5></span></div>
+            
+    
+            <ul>
+              <li id="emoji">História dos navegadores </li>
+              <li id="emoji">Indrodução ao JavaScript;</li>
+              <li id="emoji">Primeiro código; </li> 
+              <li id="emoji">Declaração de variáveis e operadores;</li>
+              <li id="emoji">Tomadas de decisão e laços de repetição;</li>
+              <li id="emoji">Trabalhando com Numbers, Strings, Arrays, Objects, Dates e Functions;</li>
+              <li id="emoji">Manipulando o HTML; </li>
+              <li id="emoji">ES6 e como funciona o processo de transpilação;</li>
+              <li id="emoji">Trabalhando com eventos de mouse e teclado.</li>
+             
+    
+            </ul>
+            <a href="#" class="botao-assinar" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Assinar plano</a>
+    
+         </div>
+    
+       </div>
+        
+    
+       <div class="tabela-preco">
+        <div class="card-preco">
+           <h3 class="card-preco-header"> INTERMEDIÁRIO </h3>
+           <div class="preco"><sup>R$</sup>399<span> <h5>Ou 10x 39,90</h5></span></div>
+    
+           <ul>
+               <li id="emoji">Orientação a Objetos;</li>
+               <li id="emoji">Protótipos e Classes;</li>
+               <li id="emoji">Tratamento de Erros e Debugging;</li>
+               <li id="emoji">Trabalhando com Expressões Regulares;</li>
+               <li id="emoji">Recursividade, escopo e closure;</li>
+               <li id="emoji">Location, History e Window;</li>
+               <li id="emoji">Trabalhando com Formulários;</li>
+               <li id="emoji">Abrindo e Salvando arquivos;</li>
+               <li id="emoji">Requisições HTTP;</li>
+               <li id="emoji">Conhecendo o jQuery. </li>
+    
+           </ul>
+           <a href="#" class="botao-assinar" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Assinar plano</a>
+    
+        </div>
+    
+        </div>
+    
+       
+        <div class="tabela-preco">
+            <div class="card-preco">
+               <h3 class="card-preco-header"> AVANÇADO </h3>
+               <div class="preco"><sup>R$</sup>499<span> <h5>Ou 10x 49,90</h5></span></div>
+       
+               <ul>
+                   <li id="emoji">Internacionalização;</li>
+                   <li id="emoji">Promises, Iterators/Generators, Async/Await;</li>
+                   <li id="emoji">Requisições com Fetch;</li>
+                   <li id="emoji">Módulos;</li>
+                   <li id="emoji">Web Workers;</li>
+                   <li id="emoji">Proxy e Reflect;</li>
+                   <li id="emoji">Armazenamento de dados com LocalStorage, SessionStorage e IndexedDB;</li>
+                   <li id="emoji">O que são Frameworks;</li>
+                   <li id="emoji">Conhecendo a aplicação do JavaScript além do navegador.</li>
+       
+               </ul>
+               <a href="#" class="botao-assinar" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Assinar plano</a>
+            </div>
+               
+       
+       
+               
+       
+        </div>
+    </div>
+            <!-- JavaScript Bundle with Popper -->
+        
     </main>
     <footer>
         <p class="paragrafo-footer">
