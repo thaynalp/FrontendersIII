@@ -3,14 +3,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     width: 100vw;
     height: 100vh;
-    
 }
-
 header {
     min-height: 150px;
  }
-
-
 main {
     min-width: 300px;
     width: 80vw;
@@ -106,7 +102,6 @@ body {
 
   .cards-container {
     display: flex;
-   
   }
   
  .tabela-preco{
@@ -114,8 +109,6 @@ body {
   display: flex;
   
  }
-
-
   .card-preco{
       
       flex: 1;
@@ -146,7 +139,6 @@ body {
     text-transform: uppercase;
     font-weight: 600;
     transform: 4s line;
-    
   }
   
   .preco{
@@ -154,8 +146,6 @@ body {
       color: rgb(18, 231, 64);
       margin: 40px 0;
       transition: .2s linear;
-      
-      
   }
   
   .preco sup, .preco span {
@@ -165,7 +155,6 @@ body {
   
   .card-preco:hover, .card-preco:hover, .preco {
     color: #084298;
-   
   }
   
   .card-preco li {
@@ -174,9 +163,6 @@ body {
       text-transform: uppercase;
       font-family: Arial;
       text-align: initial;
-      
-      
-      
   }
   
   .botao-assinar{
@@ -206,19 +192,13 @@ body {
    }
    
    /*------------ Modal inicio ----------------------/*/
-    .form-pagamento {
-     
-      
+    .form-pagamento { 
       width: 100%;
       padding: 10px 30px;
       border: 1px solid rgb(121, 120, 120);
       padding-left: 20px;
       padding: 30px 30px 30px;
-      
       background-color: rgb(228, 232, 240);
-      
-      
-      
     }
   
     .form-pagamento form {
