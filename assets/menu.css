@@ -1,4 +1,5 @@
 #nav {
+    font-family: 'Times New Roman', Times, serif;
     display: flex;  /*ou inline-flex*/
     flex-direction: row;
     flex-wrap: nowrap;
