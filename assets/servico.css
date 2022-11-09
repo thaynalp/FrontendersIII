@@ -8,7 +8,7 @@ body {
 header {
     min-height: 150px;
  }
-main {
+/* main {
     min-width: 300px;
     width: 80vw;
     min-height: 100%;
@@ -19,15 +19,8 @@ main {
     overflow: hidden;
     scroll-behavior: smooth ;
     
-}
+} */
 /*--- fim layout da pág---*/
-
-body {
-    background-color:rgb(60, 88, 246);
-    font-family: Arial, Helvetica, sans-serif;
-}
-/*--- fim layout da pág---*/
-
 *{
     margin: 0;
     padding: 0;
