@@ -5,9 +5,9 @@ body {
     width: 100vw;
     height: 100vh;
 }
-header {
+/* header {
     min-height: 150px;
- }
+ } */
 /* main {
     min-width: 300px;
     width: 80vw;
@@ -40,9 +40,11 @@ header {
   }
   
   .textos-curso{
-    margin-top: 18vh;
-    width: 60vw;
-    height: 36vh;
+    text-align: justify;
+    margin-top: 26vh;
+    width: 86vw;
+    height: 46vh;
+   margin-bottom: 70px;
     font-family: sans-serif;
     display: flex;
     align-items: center;
